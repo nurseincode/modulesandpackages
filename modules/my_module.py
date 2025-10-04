@@ -1,6 +1,8 @@
+
+
 greeting = 'Hello World'
 
-nums = [10, 20 , 30]
+nums = [10, 20, 30]
 
 person = {
     'name': 'John',

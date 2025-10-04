@@ -4,5 +4,8 @@
 # print(my_module) # Prints the location on the module
 # print(my_module.person)
 
-from my_module import person # selective import
-print(person)
+# from my_module import person, foo # selective import
+#foo(person)
+
+import modules.my_module as my_module 
+print(dir(my_module))
